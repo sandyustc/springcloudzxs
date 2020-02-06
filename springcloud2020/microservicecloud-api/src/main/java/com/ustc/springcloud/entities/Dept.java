@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+//@Data
 @Accessors(chain = true)
 public class Dept implements Serializable {
     private Long deptno;
